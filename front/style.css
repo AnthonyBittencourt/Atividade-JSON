@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid black;
+    background: radial-gradient(circle, rgba(31, 31, 31, 1) 0%, rgba(224, 224, 224, 1) 68%, rgba(0, 0, 0, 1) 100%);
+}
+
+.card {
+    background-color: azure;
+    border: 2px solid black;
+    height: 260px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+                rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+                rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+                rgba(0, 0, 0, 0.06) 0px 2px 1px,
+                rgba(0, 0, 0, 0.09) 0px 4px 2px,
+                rgba(0, 0, 0, 0.09) 0px 8px 4px,
+                rgba(0, 0, 0, 0.09) 0px 16px 8px,
+                rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card * {
+    transition: font-size 0.3s ease-in-out;
+}
+
+.card:hover * {
+    font-size: 95%;
+}
+
+/* Efeito ao passar o mouse */
+.card:hover {
+    cursor: pointer;
+    background-color: cornsilk;
+    color: black;
+    height: 275px;
+    width: 310px;
+}
+
+.card:hover img {
+    transform: scale(1.2);
+    border-radius: 5px;
+}
+
+/* Reduz o tamanho da fonte ao passar o mouse */
+.card:hover p,
+.card:hover h2,
+.card:hover span {
+    font-size: 90%;
+}
