@@ -1,6 +1,6 @@
 const resultsDiv = document.getElementById("results")
 
-async function fetchFruits(){
+async function fetchFunc(){
     resultsDiv.innerHTML = "<p>Carregando..</p>"
 
     try {
@@ -19,8 +19,9 @@ async function fetchFruits(){
             card.innerHTML = `
                 <img src="${item.imagem}" alt = "${item.nome}"
                 <h2>${item.nome}</h2>
-                <h3>${item.descricao}</h3>
-                <p>$${item.preco.toFixed(2)}</p>
+                <h3>${item.Descricao}</h3>
+                <h4>${item.Setor}</h4>
+                <p>${item.Categoria}</p>
             `
             resultsDiv.appendChild(card)
 
@@ -31,4 +32,4 @@ async function fetchFruits(){
     }
 }
 
-fetchFruits()
+fetchFunc()

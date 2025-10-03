@@ -2,82 +2,121 @@
     {
         "id": 1,
         "nome": "João Eduardo",
-        "Descricao": "",
+        "Descricao": "Agente de Negócios experiente no Setor 1, especializado em atendimento ao cliente e fechamento de contratos.",
         "Setor": 1,
         "Categoria": "Agente de Negócios",
-        "imagem": "../imagens/morango.jpg"
+        "imagem": "../imagens/func1.png"
     },
     {
         "id": 2,
-        "nome": "Eduardo Pereira",
-        "Descricao": "",
+        "nome": "Maria Eduarda",
+        "Descricao": "Agente de Negócios do Setor 2, focada em desenvolvimento de novas oportunidades de vendas.",
         "Setor": 2,
         "Categoria": "Agente de Negócios",
-        "imagem": "../imagens/morango.jpg"
+        "imagem": "../imagens/func2.png"
     },
     {
-        "id": 1,
-        "nome": "João Eduardo",
-        "Descricao": "Agente de Negócios",
-        "Setor": 1,
+        "id": 3,
+        "nome": "João Carlos",
+        "Descricao": "Gerente do Setor 3, responsável pela coordenação e supervisão das equipes para alcançar metas estratégicas.",
+        "Setor": 3,
         "Categoria": "Gerente",
-        "imagem": "../imagens/morango.jpg"
+        "imagem": "../imagens/func3.png"
     },
     {
-        "id": 1,
-        "nome": "João Eduardo",
-        "Descricao": "Agente de Negócios",
+        "id": 4,
+        "nome": "Afonso Machado",
+        "Descricao": "Supervisor do Setor 1, atuando na liderança de equipes e garantia da qualidade operacional.",
         "Setor": 1,
-        "Categoria": "Gerente",
-        "imagem": "../imagens/morango.jpg"
+        "Categoria": "Supervisor",
+        "imagem": "../imagens/func4.png"
     },
     {
-        "id": 1,
-        "nome": "João Eduardo",
-        "Descricao": "Agente de Negócios",
-        "Setor": 1,
-        "Categoria": "Gerente",
-        "imagem": "../imagens/morango.jpg"
+        "id": 5,
+        "nome": "Eduardo Pereira",
+        "Descricao": "Supervisor do Setor 2, focado na otimização de processos e suporte à equipe.",
+        "Setor": 2,
+        "Categoria": "Supervisor",
+        "imagem": "../imagens/func5.png"
     },
     {
-        "id": 1,
-        "nome": "João Eduardo",
-        "Descricao": "Agente de Negócios",
-        "Setor": 1,
-        "Categoria": "Gerente",
-        "imagem": "../imagens/morango.jpg"
+        "id": 6,
+        "nome": "Carla Dias",
+        "Descricao": "Supervisor do Setor 3, com experiência em gerenciamento de projetos e coordenação de equipes.",
+        "Setor": 3,
+        "Categoria": "Supervisor",
+        "imagem": "../imagens/func6.png"
     },
     {
-        "id": 1,
-        "nome": "João Eduardo",
-        "Descricao": "Agente de Negócios",
+        "id": 7,
+        "nome": "Marcia Silva",
+        "Descricao": "Analista da Segurança do Setor 1, especializada em monitoramento e avaliação de riscos.",
         "Setor": 1,
-        "Categoria": "Gerente",
-        "imagem": "../imagens/morango.jpg"
+        "Categoria": "Analista da Segurança",
+        "imagem": "../imagens/func7.png"
     },
     {
-        "id": 1,
-        "nome": "João Eduardo",
-        "Descricao": "Agente de Negócios",
-        "Setor": 1,
-        "Categoria": "Gerente",
-        "imagem": "../imagens/morango.jpg"
+        "id": 8,
+        "nome": "Gabriela Abreu",
+        "Descricao": "Analista da Segurança do Setor 2, responsável pela implementação de políticas de segurança.",
+        "Setor": 2,
+        "Categoria": "Analista da Segurança",
+        "imagem": "../imagens/func8.png"
     },
     {
-        "id": 1,
-        "nome": "João Eduardo",
-        "Descricao": "Agente de Negócios",
-        "Setor": 1,
-        "Categoria": "Gerente",
-        "imagem": "../imagens/morango.jpg"
+        "id": 9,
+        "nome": "Sayori Kamikase",
+        "Descricao": "Analista da Segurança do Setor 3, focada em auditorias e conformidade com normas de segurança.",
+        "Setor": 3,
+        "Categoria": "Analista da Segurança",
+        "imagem": "../imagens/func9.png"
     },
     {
-        "id": 1,
-        "nome": "João Eduardo",
-        "Descricao": "Agente de Negócios",
+        "id": 10,
+        "nome": "Luis Moraes",
+        "Descricao": "Engenheiro de Software do Setor 1, especialista em desenvolvimento de sistemas e soluções inovadoras.",
         "Setor": 1,
-        "Categoria": "Gerente",
-        "imagem": "../imagens/morango.jpg"
+        "Categoria": "Engenheiro de Software",
+        "imagem": "../imagens/func10.png"
     },
-
+    {
+        "id": 11,
+        "nome": "Shayane",
+        "Descricao": "Engenheira de Software do Setor 2, focada em arquiteturas escaláveis e otimização de código.",
+        "Setor": 2,
+        "Categoria": "Engenheiro de Software",
+        "imagem": "../imagens/func11.png"
+    },
+    {
+        "id": 12,
+        "nome": "Michael Jordan",
+        "Descricao": "Engenheiro de Software do Setor 3, com experiência em desenvolvimento front-end e back-end.",
+        "Setor": 3,
+        "Categoria": "Engenheiro de Software",
+        "imagem": "../imagens/func12.jpg"
+    },
+    {
+        "id": 13,
+        "nome": "Michael Jackson",
+        "Descricao": "Especialista em Gestão e Planejamento do Setor 1, responsável pelo alinhamento estratégico e execução de planos.",
+        "Setor": 1,
+        "Categoria": "Gestão e Planejamento",
+        "imagem": "../imagens/func13.jpg"
+    },
+    {
+        "id": 14,
+        "nome": "Ozzy Osbourne",
+        "Descricao": "Especialista em Gestão e Planejamento do Setor 2, focado em análise de desempenho e melhoria contínua.",
+        "Setor": 2,
+        "Categoria": "Gestão e Planejamento",
+        "imagem": "../imagens/func14.jpg"
+    },
+    {
+        "id": 15,
+        "nome": "Yuri Aberto",
+        "Descricao": "Especialista em Gestão e Planejamento do Setor 3, atuando na definição de metas e monitoramento de resultados.",
+        "Setor": 3,
+        "Categoria": "Gestão e Planejamento",
+        "imagem": "../imagens/func15.png"
+    }
 ]
